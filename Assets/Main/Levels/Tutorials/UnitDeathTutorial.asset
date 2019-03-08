@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
+  m_Name: UnitDeathTutorial
+  m_EditorClassIdentifier: 
+  Name: 536f6d6574696d65732c20546865204c6f6e6720576179
+  Discription: 416e20696e74726f64756374696f6e20746f2061746d6f737068657269632072616e6765732e2055736520706c616e65746172792061746d6f7370686572657320746f20796f757220616476616e746167652e
+  Prefab: {fileID: 187086, guid: 42ab11a790ea84ddeb1a9bf04c248ffe, type: 2}
+  IgnoreFirstConvergence: 0
+  convergences: []

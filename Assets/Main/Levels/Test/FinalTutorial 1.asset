@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
+  m_Name: FinalTutorial 1
+  m_EditorClassIdentifier: 
+  Name: 54616b696e6720436f6e74726f6c
+  Discription: 506c616e657461727920636f6e7175657374206174206974732066696e6573742e
+  Prefab: {fileID: 191868, guid: 9c942ffcd1c077b4a86cce54abf300f1, type: 2}
+  IgnoreFirstConvergence: 0
+  convergences:
+  - FirstTime: 98.99906
+    IntervalTime: 198.00986
+    TowersInvolved: 000000000100000002000000
+  - FirstTime: 198.00288
+    IntervalTime: 198.01207
+    TowersInvolved: 000000000100000002000000

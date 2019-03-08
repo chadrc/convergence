@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67afbb5a8ac40428b90bbc467994a821, type: 3}
+  m_Name: Aries
+  m_EditorClassIdentifier: 
+  Name: 4172696573
+  Description: 
+  Levels:
+  - {fileID: 11400000, guid: 4398a13f0c170eb4cb06c25fd26d0476, type: 2}
+  - {fileID: 11400000, guid: 0c04c2ea0222c0848b41660214c0ce7d, type: 2}
+  - {fileID: 11400000, guid: 6665d7993fd42ac41b248853cf8a22ca, type: 2}
+  - {fileID: 11400000, guid: 628e9e96ebdb9084cbbdb6788d29f7d5, type: 2}
+  - {fileID: 11400000, guid: 26a12326e17532a4a8543ea7112c0727, type: 2}
+  - {fileID: 11400000, guid: 16f3928e90207834ba65bb946e59a67a, type: 2}
+  - {fileID: 11400000, guid: e29da43c34c405043bfe6011be81e2de, type: 2}
+  - {fileID: 11400000, guid: b7e71ff981c08d8488f92b6d0f350a9b, type: 2}
+  - {fileID: 11400000, guid: ec995b2d0ae907248b26f66f9318a8a3, type: 2}

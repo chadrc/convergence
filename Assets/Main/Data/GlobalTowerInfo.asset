@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae674dbafc5943a99e0700295500c52, type: 3}
+  m_Name: GlobalTowerInfo
+  m_EditorClassIdentifier: 
+  DefaultAttackStrength: 75
+  DefaultMovementSpeed: 5
+  DefaultUnitKillTime: 2
+  EnduranceUpgrade:
+    cost: 10
+    stats:
+      AtmosphereRange: 0
+      UnitsGeneratedPerSecond: 0
+      Endurance: 20
+  AtmosphereUpgrade:
+    cost: 10
+    stats:
+      AtmosphereRange: 2
+      UnitsGeneratedPerSecond: 0
+      Endurance: 0
+  UnitProductionUpgrade:
+    cost: 10
+    stats:
+      AtmosphereRange: 0
+      UnitsGeneratedPerSecond: 0.25
+      Endurance: 0
+  PlayerTowerGraphics:
+  - Graphic: {fileID: 21300000, guid: 61a751dfb915518469dc384ca6a05f51, type: 3}
+    scaleFactor: 2.15
+  - Graphic: {fileID: 21300000, guid: 78eb14756049d5848834874ec3f847ea, type: 3}
+    scaleFactor: 2.81
+  - Graphic: {fileID: 21300000, guid: 9820135fe6b55d24ba95802a634d2972, type: 3}
+    scaleFactor: 2.81
+  - Graphic: {fileID: 21300000, guid: 4c1dd54f81a9c88448fef17cf68d54df, type: 3}
+    scaleFactor: 2.81
+  EnemyTowerGraphics:
+  - Graphic: {fileID: 21300000, guid: 31f4afe2b8930e948bffbe88ebe6c284, type: 3}
+    scaleFactor: 2.15
+  - Graphic: {fileID: 21300000, guid: f6bd38f45ac48b547a9b0c8f6fadb6e8, type: 3}
+    scaleFactor: 2.81
+  - Graphic: {fileID: 21300000, guid: ffa26cebc3f675c4cb8b82404f5a561d, type: 3}
+    scaleFactor: 2.81
+  - Graphic: {fileID: 21300000, guid: c9f30811df6412546bad189a9a983c2a, type: 3}
+    scaleFactor: 2.81
+  NeutralTowerGraphics:
+  - Graphic: {fileID: 21300000, guid: ab5afff407ff1c54abfbe9291af65cde, type: 3}
+    scaleFactor: 2.15
+  - Graphic: {fileID: 21300000, guid: 1d2c898f3a863654a85661814cfc3088, type: 3}
+    scaleFactor: 2.15
+  - Graphic: {fileID: 21300000, guid: ab5afff407ff1c54abfbe9291af65cde, type: 3}
+    scaleFactor: 2.15
+  - Graphic: {fileID: 21300000, guid: 1d2c898f3a863654a85661814cfc3088, type: 3}
+    scaleFactor: 2.15

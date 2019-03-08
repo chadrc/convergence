@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ad14e16eac1bd6b4ba2c46a1981c3869
+timeCreated: 1450195640
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - NovaEvent: {fileID: 11400000, guid: 66163479021a545cd8fbeabcf3d5036f, type: 2}
+  - UnitImpactEvent: {fileID: 11400000, guid: 44a29ad8b0dd348a3a6c93a5e2d4cf40, type: 2}
+  - UnitKilledEvent: {fileID: 11400000, guid: bc3ae55dcde6c45d3ad08ee13ec597de, type: 2}
+  - PlanetSelectedEvent: {fileID: 11400000, guid: abd7390f0c8e143f0883c846c3a40f07,
+      type: 2}
+  - PlanetCapturedEvent: {fileID: 11400000, guid: 302deccc87a4b4a30baa8961357f73a2,
+      type: 2}
+  executionOrder: 400
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

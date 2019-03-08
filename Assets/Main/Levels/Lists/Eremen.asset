@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67afbb5a8ac40428b90bbc467994a821, type: 3}
+  m_Name: Eremen
+  m_EditorClassIdentifier: 
+  Name: 4572656d656e
+  Description: 
+  Levels:
+  - {fileID: 11400000, guid: 606a01b895bf4b14c964f12cd0fce0b2, type: 2}
+  - {fileID: 11400000, guid: 7b8dbb2cace81a243b643a7e4b8df0e6, type: 2}
+  - {fileID: 11400000, guid: d4c137bde3db3ed408e7b7e8043d1d9a, type: 2}
+  - {fileID: 11400000, guid: 61939250760fd364eb6f38ec3f56e535, type: 2}
+  - {fileID: 11400000, guid: 51d54edfcfd06084e8404a11b5dff75c, type: 2}
+  - {fileID: 11400000, guid: 986096c4f2141fd4a8bcd7b49b97d370, type: 2}

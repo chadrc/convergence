@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 071e8bfe91a5ce240ba66e288c1521eb
+timeCreated: 1449433292
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Button_Default
+    21300002: Button_Default_On
+    21300004: ProgressBar_End
+    21300006: ProgressBar_Mid
+    21300008: Warning_Symbol
+    21300010: Border_Default
+    21300012: ProgressBar_End_Fill
+    21300014: ProgressBar_Mid_Fill
+    21300016: Slider_Fill
+    21300018: Slider_Background
+    21300020: Slider_Arrow
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Button_Default
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 253
+        width: 102
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Button_Default_On
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 253
+        width: 102
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ProgressBar_End
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 225
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ProgressBar_Mid
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 225
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Warning_Symbol
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 207
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Border_Default
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 206
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ProgressBar_End_Fill
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 202
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ProgressBar_Mid_Fill
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 202
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slider_Fill
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 141
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slider_Background
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 141
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slider_Arrow
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
