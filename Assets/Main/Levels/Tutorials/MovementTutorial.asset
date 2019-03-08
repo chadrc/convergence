@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: MovementTutorial
   m_EditorClassIdentifier: 
-  Name: 46697273742041747461636b
-  Discription: 416e20696e74726f64756374696f6e20746f20756e6974206d6f76656d656e742e2055736520616c6c69656420756e69747320746f20636170747572652074686520656e656d7920706c616e65742e
+  Name: Movement
+  Discription: Distribute your units.
   Prefab: {fileID: 138870, guid: 40972a564ca54ae4488a79f9c7a5ade9, type: 2}
   IgnoreFirstConvergence: 0
   convergences: []

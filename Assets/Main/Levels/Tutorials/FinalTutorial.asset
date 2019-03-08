@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: FinalTutorial
   m_EditorClassIdentifier: 
-  Name: 54616b696e6720436f6e74726f6c
-  Discription: 506c616e657461727920636f6e7175657374206174206974732066696e6573742e
+  Name: The Final Test
+  Discription: Defeat your foe.
   Prefab: {fileID: 191868, guid: 1fed2d1a92729b34a99c86e6e3aad20b, type: 2}
   IgnoreFirstConvergence: 0
   convergences:

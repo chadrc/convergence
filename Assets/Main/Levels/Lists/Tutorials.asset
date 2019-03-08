@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afbb5a8ac40428b90bbc467994a821, type: 3}
   m_Name: Tutorials
   m_EditorClassIdentifier: 
-  Name: 547261696e696e67
-  Description: 4c6561726e20686f7720746f20636f6d6d616e6420796f75722061726d7920616e6420626174746c652074686520656e656d792e
+  Name: Tutorial
+  Description: Learn how to play.
   Levels:
   - {fileID: 11400000, guid: db83276104dfdff48bb9774c8cf1679a, type: 2}
   - {fileID: 11400000, guid: 76da06379493b4dd1826a41736f52006, type: 2}

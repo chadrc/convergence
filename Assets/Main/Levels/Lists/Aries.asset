@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afbb5a8ac40428b90bbc467994a821, type: 3}
   m_Name: Aries
   m_EditorClassIdentifier: 
-  Name: 4172696573
+  Name: Aries
   Description: 
   Levels:
   - {fileID: 11400000, guid: 4398a13f0c170eb4cb06c25fd26d0476, type: 2}

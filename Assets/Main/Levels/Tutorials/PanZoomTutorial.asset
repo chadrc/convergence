@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: PanZoomTutorial
   m_EditorClassIdentifier: 
-  Name: 4e617669676174696e672074686520426174746c656669656c64
-  Discription: 496e74726f64756374696f6e20746f2070616e20616e64207a6f6f6d206d656368616e6963732e
+  Name: Navigation
+  Discription: View the entire field.
   Prefab: {fileID: 138870, guid: 54e8f496ea9c3484191a1cee9d6f2d32, type: 2}
   IgnoreFirstConvergence: 0
   convergences: []

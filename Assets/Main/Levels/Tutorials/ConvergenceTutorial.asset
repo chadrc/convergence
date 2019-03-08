@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: ConvergenceTutorial
   m_EditorClassIdentifier: 
-  Name: 5768656e20506c616e65747320416c69676e
-  Discription: 416e20696e74726f64756374696f6e20746f2074686520436f6e76657267656e6365206576656e742e20556e6974206c6f737320696d6d696e656e742e
+  Name: Convergence
+  Discription: When planets align, take cover.
   Prefab: {fileID: 144244, guid: 79c0cb5e28f44b242833b76a62281385, type: 2}
   IgnoreFirstConvergence: 0
   convergences:

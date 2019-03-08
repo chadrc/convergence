@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: Level 1
   m_EditorClassIdentifier: 
-  Name: 4c6576656c2031
-  Discription: 
+  Name: Level 1
+  Discription: Level 1
   Prefab: {fileID: 171308, guid: 411cfc7cf7b8d2a4c8dabe01dc9c4b1f, type: 2}
   IgnoreFirstConvergence: 0
   convergences: []

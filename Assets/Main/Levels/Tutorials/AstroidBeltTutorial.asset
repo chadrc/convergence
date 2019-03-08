@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: AstroidBeltTutorial
   m_EditorClassIdentifier: 
-  Name: 4465736d65616e20496e74657272757074696f6e
-  Discription: 416e20696e74726f64756374696f6e20746f20746865204465736d65616e2042656c742e2043697263756d76656e74207468652061737465726f69647320746f202070726f6772657373206661737465722e
+  Name: Astroid Belt
+  Discription: Survive the astroids.
   Prefab: {fileID: 144244, guid: c891bc79e1614084bad23f3ed20551ea, type: 2}
   IgnoreFirstConvergence: 0
   convergences: []

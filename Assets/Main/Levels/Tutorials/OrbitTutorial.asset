@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331c6e3c63bf0475d908302e499bfe85, type: 3}
   m_Name: OrbitTutorial
   m_EditorClassIdentifier: 
-  Name: 416e204f70706f7274756e65204d6f6d656e74
-  Discription: 556e6974206a756d7020746f2061206d6f76696e6720706c616e65742e2054696d696e672069732065766572797468696e672e
+  Name: Orbits
+  Discription: Get your timing right.
   Prefab: {fileID: 166326, guid: 64d0c7528b857944bbd2d6187f423f35, type: 2}
   IgnoreFirstConvergence: 0
   convergences: []
