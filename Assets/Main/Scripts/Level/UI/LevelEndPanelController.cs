@@ -15,7 +15,7 @@ public class LevelEndPanelController : MonoBehaviour
 
     public Color PlayerColor;
     public Color EnemyColor;
-    [Range(0,1)]
+    [Range(0, 1)]
     public float BackgroundAlpha;
     [Range(0, 1)]
     public float FlashAlpha;
@@ -25,20 +25,17 @@ public class LevelEndPanelController : MonoBehaviour
     public float fadeInTime;
     public float buttonFadeDelay;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
 
     public void StartEndSequence(bool result)
     {
         Color playerColor = PlayerColor;
         Color enemyColor = EnemyColor;
-        if (NetworkLevelController.Networked && !NetworkServer.active)
-        {
-            playerColor = EnemyColor;
-            enemyColor = PlayerColor;
-        }
+
         Color temp;
         if (result)
         {
@@ -67,7 +64,7 @@ public class LevelEndPanelController : MonoBehaviour
         BackgroundImage.color = temp;
         FlashPanel.alpha = 0;
         gameObject.SetActive(true);
-        foreach(var group in ButtonGroups)
+        foreach (var group in ButtonGroups)
         {
             group.alpha = 0;
         }
@@ -84,7 +81,7 @@ public class LevelEndPanelController : MonoBehaviour
         float timer = 0;
         float halfTime = flashTime / 4f;
         Time.timeScale = 0;
-        
+
         while (timer < halfTime)
         {
             timer += Time.unscaledDeltaTime;
@@ -95,7 +92,7 @@ public class LevelEndPanelController : MonoBehaviour
         Time.timeScale = .25f;
         timer = 0;
         float remainingTime = flashTime - halfTime;
-        while(timer < halfTime)
+        while (timer < halfTime)
         {
             timer += Time.unscaledDeltaTime;
             FlashPanel.alpha = Mathf.Lerp(1.0f, 0, timer / halfTime);

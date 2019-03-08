@@ -28,16 +28,12 @@ public class MultiplayerMenuViewController : MonoBehaviour
 
         cnpDestPos = cnpInitPos - offset;
         jnpDestPos = jnpInitPos - offset;
-
-        CreateNamePass.SubmitPressed += OnCreateSubmit;
-        JoinNamePass.SubmitPressed += OnJoinSubmit;
 	}
 
     public void QuickMatchBtnPressed()
     {
         Reset();
         Game.SetSelectedLevel(-1);
-        NetworkLevelController.Option = MatchOption.QuickMatch;
         SceneManager.LoadScene("Multiplayer");
     }
 
@@ -68,23 +64,5 @@ public class MultiplayerMenuViewController : MonoBehaviour
     {
         StartCoroutine(MenuAnimations.FadeMoveCanvasGroup(CreateNamePass.GetComponent<CanvasGroup>(), initialPos, destPos, .2f, -1.0f));
         StartCoroutine(MenuAnimations.FadeMoveCanvasGroup(JoinNamePass.GetComponent<CanvasGroup>(), initialPos, destPos, .2f, -1.0f));
-    }
-
-    void OnCreateSubmit(string name, string pass)
-    {
-        Game.SetSelectedLevel(-1);
-        NetworkLevelController.Option = MatchOption.Create;
-        NetworkLevelController.RoomName = name;
-        NetworkLevelController.RoomPass = pass;
-        SceneManager.LoadScene("Multiplayer");
-    }
-
-    void OnJoinSubmit(string name, string pass)
-    {
-        Game.SetSelectedLevel(-1);
-        NetworkLevelController.Option = MatchOption.Join;
-        NetworkLevelController.RoomName = name;
-        NetworkLevelController.RoomPass = pass;
-        SceneManager.LoadScene("Multiplayer");
     }
 }

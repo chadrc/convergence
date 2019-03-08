@@ -9,7 +9,7 @@ public class UIPointerResponder : IPointerResponder
     public static System.Action<TowerButtonBehavior> PlayerDeselectedTower;
     public static System.Action<TowerButtonBehavior> PlayerHoveredTower;
     public static System.Action<TowerButtonBehavior> PlayerUnhoveredTower;
-    
+
     private TowerButtonBehavior firstSelect;
     private TowerButtonBehavior secondSelect;
 
@@ -28,7 +28,7 @@ public class UIPointerResponder : IPointerResponder
     public void OnBeginDrag(PointerEventData eventData)
     {
         var btn = Controller.GetTowerButton(eventData.position);
-        
+
         //Debug.Log("Button: " + btn.Tower.Index + " | Faction: " + btn.Tower.Faction);
         if (btn != null && btn.Tower.Faction == FactionController.PlayerFaction)
         {
@@ -40,9 +40,9 @@ public class UIPointerResponder : IPointerResponder
     public void OnDrag(PointerEventData eventData)
     {
         if (firstSelect == null)
-		{
-			return;
-		}
+        {
+            return;
+        }
 
         var s = Controller.GetTowerButton(eventData.position);
         if (s != null)
@@ -101,13 +101,13 @@ public class UIPointerResponder : IPointerResponder
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        
+
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         var btn = Controller.GetTowerButton(eventData.position);
-        
+
         if (btn == null || btn.Tower.Faction != FactionController.PlayerFaction)
         {
             return;
@@ -145,22 +145,15 @@ public class UIPointerResponder : IPointerResponder
     public void OnPointerDown(PointerEventData eventData)
     {
         var btn = Controller.GetTowerButton(eventData.position);
-        
+
         if (btn != null && btn.Tower.Faction == FactionController.PlayerFaction)
         {
             // Soft select tower and prepare units for movement
             firstSelect = btn;
             //firstSelect.Tower.ShowAtmosphere();
 
-            if (NetworkLevelController.Networked)
-            {
-                NetworkCommands.SelectTower(btn.Tower.Faction, btn.Tower.Index, Controller.UnitPercent);
-            }
-            else
-            {
-                curUnitGroup = UnitController.CreateUnitGroupForFaction(btn.Tower.Faction, (int)(btn.Tower.StationedUnits * Controller.UnitPercent));
-                curUnitGroup.PrepareUnits(btn.Tower);
-            }
+            curUnitGroup = UnitController.CreateUnitGroupForFaction(btn.Tower.Faction, (int)(btn.Tower.StationedUnits * Controller.UnitPercent));
+            curUnitGroup.PrepareUnits(btn.Tower);
 
             if (PlayerSelectedTower != null)
             {
@@ -171,37 +164,23 @@ public class UIPointerResponder : IPointerResponder
 
     public void OnPointerUp(PointerEventData eventData)
     {
-		if (firstSelect != null)
-		{
-			if (secondSelect != null)
-			{
-				// If two towers are selected and they are not the same tower, move units to second tower
-				if (firstSelect != secondSelect)
-				{
-					//Debug.Log("Sending Units: " + curUnitGroup.UnitCount);
-                    
-                    // Network Action
-                    if (NetworkLevelController.Networked)
-                    {
-                        NetworkCommands.SendUnits(firstSelect.Tower.Faction, firstSelect.Tower.Index, secondSelect.Tower.Index);
-                    }
-                    else
-                    {
-                        TowerBehavior.MoveGroupFromTo(curUnitGroup, firstSelect.Tower, secondSelect.Tower);
-                    }
-					curUnitGroup = null;
-				}
+        if (firstSelect != null)
+        {
+            if (secondSelect != null)
+            {
+                // If two towers are selected and they are not the same tower, move units to second tower
+                if (firstSelect != secondSelect)
+                {
+                    //Debug.Log("Sending Units: " + curUnitGroup.UnitCount);
+
+                    TowerBehavior.MoveGroupFromTo(curUnitGroup, firstSelect.Tower, secondSelect.Tower);
+
+                    curUnitGroup = null;
+                }
 
                 if (PlayerUnhoveredTower != null)
                 {
                     PlayerUnhoveredTower(secondSelect);
-                }
-			}
-            else
-            {
-                if (NetworkLevelController.Networked)
-                {
-                    NetworkCommands.DeselectTower(firstSelect.Tower.Faction);
                 }
             }
 
@@ -211,20 +190,20 @@ public class UIPointerResponder : IPointerResponder
             }
         }
 
-		// Reset unused units
-		if (curUnitGroup != null)
-		{
-			curUnitGroup.UnprepareUnits();
-			curUnitGroup = null;
-		}
+        // Reset unused units
+        if (curUnitGroup != null)
+        {
+            curUnitGroup.UnprepareUnits();
+            curUnitGroup = null;
+        }
 
-		firstSelect = null;
-		secondSelect = null;
+        firstSelect = null;
+        secondSelect = null;
     }
 
     public void OnScroll(PointerEventData eventData)
     {
-        
+
     }
 
     #endregion
