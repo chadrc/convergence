@@ -5,10 +5,10 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 408598}
-  - 212: {fileID: 21275996}
+  - component: {fileID: 408598}
+  - component: {fileID: 21275996}
   m_Layer: 0
   m_Name: TowerGraphic
   m_TagString: Untagged
@@ -21,12 +21,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 468820}
-  - 114: {fileID: 11460558}
-  - 135: {fileID: 13580048}
-  - 114: {fileID: 11402768}
+  - component: {fileID: 468820}
+  - component: {fileID: 11460558}
+  - component: {fileID: 13580048}
+  - component: {fileID: 11402768}
   m_Layer: 0
   m_Name: PlayerTower
   m_TagString: Untagged
@@ -39,10 +39,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 473158}
-  - 114: {fileID: 11496030}
+  - component: {fileID: 473158}
+  - component: {fileID: 11496030}
   m_Layer: 0
   m_Name: SoundController
   m_TagString: Untagged
@@ -55,10 +55,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 412858}
-  - 114: {fileID: 11464862}
+  - component: {fileID: 412858}
+  - component: {fileID: 11464862}
   m_Layer: 0
   m_Name: TowerController
   m_TagString: Untagged
@@ -71,10 +71,10 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 404596}
-  - 212: {fileID: 21200130}
+  - component: {fileID: 404596}
+  - component: {fileID: 21200130}
   m_Layer: 0
   m_Name: TowerGraphic
   m_TagString: Untagged
@@ -87,11 +87,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 447154}
-  - 212: {fileID: 21232418}
-  - 114: {fileID: 11408016}
+  - component: {fileID: 447154}
+  - component: {fileID: 21232418}
+  - component: {fileID: 11408016}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -104,12 +104,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 482076}
-  - 114: {fileID: 11481350}
-  - 135: {fileID: 13589594}
-  - 114: {fileID: 11416784}
+  - component: {fileID: 482076}
+  - component: {fileID: 11481350}
+  - component: {fileID: 13589594}
+  - component: {fileID: 11416784}
   m_Layer: 0
   m_Name: NeutralTower
   m_TagString: Untagged
@@ -122,10 +122,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 406512}
-  - 114: {fileID: 11416686}
+  - component: {fileID: 406512}
+  - component: {fileID: 11416686}
   m_Layer: 0
   m_Name: WinCondition
   m_TagString: Untagged
@@ -138,10 +138,10 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 495958}
-  - 212: {fileID: 21251622}
+  - component: {fileID: 495958}
+  - component: {fileID: 21251622}
   m_Layer: 0
   m_Name: TowerGraphic
   m_TagString: Untagged
@@ -154,12 +154,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 458750}
-  - 114: {fileID: 11440542}
-  - 135: {fileID: 13511742}
-  - 114: {fileID: 11440530}
+  - component: {fileID: 458750}
+  - component: {fileID: 11440542}
+  - component: {fileID: 13511742}
+  - component: {fileID: 11440530}
   m_Layer: 0
   m_Name: EnemyTower
   m_TagString: Untagged
@@ -172,10 +172,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 450704}
-  - 114: {fileID: 11436772}
+  - component: {fileID: 450704}
+  - component: {fileID: 11436772}
   m_Layer: 0
   m_Name: UnitController
   m_TagString: Untagged
@@ -188,10 +188,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 409912}
-  - 114: {fileID: 11464608}
+  - component: {fileID: 409912}
+  - component: {fileID: 11464608}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
@@ -204,9 +204,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 414194}
+  - component: {fileID: 414194}
   m_Layer: 0
   m_Name: UnitDeathTutorialLevelFab
   m_TagString: LevelFab
@@ -219,13 +219,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 424270}
-  - 114: {fileID: 11414154}
-  - 114: {fileID: 11433016}
-  - 114: {fileID: 11440898}
-  - 114: {fileID: 11451554}
+  - component: {fileID: 424270}
+  - component: {fileID: 11414154}
+  - component: {fileID: 11433016}
+  - component: {fileID: 11440898}
+  - component: {fileID: 11451554}
   m_Layer: 0
   m_Name: Mods
   m_TagString: Untagged
@@ -238,10 +238,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 415584}
-  - 114: {fileID: 11440956}
+  - component: {fileID: 415584}
+  - component: {fileID: 11440956}
   m_Layer: 0
   m_Name: FactionController
   m_TagString: Untagged
@@ -524,7 +524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7383e95a6134cf74ea562293a2fbdbef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpText: 556e69747320696e207370616365206469652069662074686579206661696c20746f207265616368206120706c616e657427732061746d6f737068657265206661737420656e6f7567682e204361707475726520746865206e65757472616c20706c616e6574206265666f72652074686520656e656d7927732e
+  helpText: Units can only surived for so long outside the orbit of a planet. Use
+    other planets to get close enough to attack your opponent.
 --- !u!114 &11436772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -742,12 +743,16 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -755,17 +760,25 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 584b1e1c3c3904ad298242c4a74064d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &21232418
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -775,12 +788,16 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -788,17 +805,25 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: f7f47c321c9e2a5448ea3b9c699c0d90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &21251622
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -808,12 +833,16 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -821,17 +850,25 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 584b1e1c3c3904ad298242c4a74064d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &21275996
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -841,12 +878,16 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -854,17 +895,25 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 584b1e1c3c3904ad298242c4a74064d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
