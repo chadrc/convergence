@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Convergence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "%UNITY_WEBGL_BUILD_URL%"
+      );
+    </script>
+
+    <script>
+        window.addEventListener("load", () => {
+            let gameContainer = document.getElementById("gameContainer");
+            let canvas = document.getElementById("#canvas");
+            let minWidth = 800;
+
+            let setSize = () => {
+                let newWidth = gameContainer.clientWidth;
+                if (newWidth < minWidth) {
+                newWidth = minWidth;
+                }
+
+                let newHeight = Math.floor(newWidth * (+"%UNITY_HEIGHT%" / +"%UNITY_WIDTH%"));
+
+                canvas.setAttribute("width", newWidth);
+                canvas.setAttribute("height", newHeight);
+            };
+
+            // Snap to ratio on load
+            setSize();
+
+            let aspectRatio = window.addEventListener("resize", setSize);
+        });
+  </script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .webgl-logo {
+      width: 204px;
+    }
+  </style>
+  </head>
+  <body>
+    <main>
+      <div id="gameContainer"></div>
+      <section class="mt-3 container">
+        <div class="row justify-content-md-center">
+          <div class="col col-sm-4 text-center">
+            <img class="webgl-logo" src="TemplateData/webgl-logo.png">
+          </div>
+          <div class="col col-sm-4 text-center">
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Download
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="https://s3.amazonaws.com/convergence.chadrcollins.com/Downloads/Convergence_Mac.zip">Mac</a>
+                <a class="dropdown-item" href="https://s3.amazonaws.com/convergence.chadrcollins.com/Downloads/Convergence_Win.zip">Windows</a>
+                <a class="dropdown-item" href="https://s3.amazonaws.com/convergence.chadrcollins.com/Downloads/Convergence_Linux.zip">Linux</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  </body>
+</html>
